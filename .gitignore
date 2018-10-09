@@ -1,0 +1,7 @@
+# Copado .gitignore
+package.xml
+src/classes/copado__*
+src/triggers/copado__*
+src/pages/copado__*
+src/reports/copado__*
+src/reporttypes/copado__*
