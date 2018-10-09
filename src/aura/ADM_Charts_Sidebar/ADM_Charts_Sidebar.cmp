@@ -1,0 +1,10 @@
+<aura:component>
+    <aura:attribute name="sprintData" type="Object"/>
+
+    <agf:ADM_Chart_Sprint_Burndown  sprintData="{!v.sprintData}"/>
+    <div class="slds-has-divider--bottom slds-m-vertical--large"></div>
+    <agf:ADM_Chart_Sprint_Allocation  sprintData="{!v.sprintData}"/>
+    <div class="slds-has-divider--bottom slds-m-vertical--large"></div>
+    <agf:ADM_Chart_Sprint_Velocity  sprintData="{!v.sprintData}"/>
+
+</aura:component>

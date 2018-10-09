@@ -1,0 +1,23 @@
+<aura:component >
+    <aura:attribute name="component" type="String"/>
+    <aura:attribute name="sprintData" type="Object"/>
+    <aura:attribute name="height" type="String" description="include units" default="0px"/>
+    <aura:attribute name="minWidth" type="String" description="include units" default="0px"/>
+
+    <aura:handler event="agf:ADM_Event_Toggle_Sidebar" action="{!c.toggleSidebar}"/>
+
+    <div aura:id="sidebar-container" class="slds-border--top slds-border--bottom slds-border--left" style="{! 'height:' + v.height + ';min-width:' + v.minWidth }">
+        <!-- Overlay content -->
+        <div class="slds-p-around--x-small">
+            <aura:if isTrue="{!v.component == 'filter'}">
+                <agf:ADM_Filter_Sidebar sprintData="{!v.sprintData}"/>
+            </aura:if>
+            <aura:if isTrue="{!v.component == 'charts'}">
+                <agf:ADM_Charts_Sidebar sprintData="{!v.sprintData}"/>
+            </aura:if>
+            <aura:if isTrue="{!v.component == 'chatter'}">
+                <agf:ADM_Chatter_Sidebar sprintData="{!v.sprintData}" />
+            </aura:if>
+        </div>
+    </div>
+</aura:component>

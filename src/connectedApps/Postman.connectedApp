@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>bobby.white@salesforce.com</contactEmail>
+    <contactPhone>14157131709</contactPhone>
+    <label>Postman</label>
+    <oauthConfig>
+        <callbackUrl>https://www.getpostman.com/oauth2/callback</callbackUrl>
+        <consumerKey>3MVG9szVa2RxsqBZmrwGtrrMHcbeZ821nO_WSekA2xQPA0IadOwH_7NTiSxjTbcPCaXsLMfF9_n151mG2sc86</consumerKey>
+        <scopes>Basic</scopes>
+        <scopes>Api</scopes>
+        <scopes>Chatter</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>
