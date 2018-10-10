@@ -54,17 +54,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
-        <fullName>Commit_Web_URI__c</fullName>
-        <description>Commit Web URI</description>
-        <externalId>false</externalId>
-        <formula>copado__Snapshot_Commit__r.Commit_WebURI__c</formula>
-        <label>Commit Web URI</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Status__c</fullName>
         <externalId>false</externalId>
         <label>Status</label>

@@ -145,17 +145,6 @@
         <label>CBM Fields</label>
     </fieldSets>
     <fields>
-        <fullName>Commit_WebURI__c</fullName>
-        <description>Commit Web URI</description>
-        <externalId>false</externalId>
-        <formula>copado__Git_Backup__r.copado__Git_Repository__r.copado__Commit_Base_URL__c  &amp;  copado__Commit_Id__c</formula>
-        <label>Commit WebURI</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>copado__Changes__c</fullName>
         <deprecated>false</deprecated>
         <externalId>false</externalId>

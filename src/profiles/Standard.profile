@@ -10515,11 +10515,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>copado__Git_Org_Commit__c.Commit_WebURI__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>copado__Git_Org_Commit__c.copado__Changes__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -10562,11 +10557,6 @@
         <editable>false</editable>
         <field>copado__Git_Repository__c.IsBackupsOnly__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.WebURI__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -12047,11 +12037,6 @@
         <editable>false</editable>
         <field>copado__User_Persona_Assignment__c.copado__User__c</field>
         <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__User_Story_Commit__c.Commit_Web_URI__c</field>
-        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
