@@ -1,45 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <label><!-- Commit Web URI --></label>
-        <name>Commit_Web_URI__c</name>
-    </fields>
-    <fields>
-        <label><!-- Status --></label>
+        <label></label>
         <name>Status__c</name>
         <picklistValues>
             <masterLabel>Completed</masterLabel>
-            <translation><!-- Completed --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Conflict</masterLabel>
-            <translation><!-- Conflict --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>No Changes</masterLabel>
-            <translation><!-- No Changes --></translation>
+            <translation></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Pending</masterLabel>
-            <translation><!-- Pending --></translation>
+            <translation></translation>
         </picklistValues>
     </fields>
     <fields>
-        <label><!-- External Id --></label>
+        <label></label>
         <name>copado__External_Id__c</name>
     </fields>
     <fields>
-        <label><!-- Snapshot Commit --></label>
+        <label></label>
         <name>copado__Snapshot_Commit__c</name>
-        <relationshipLabel><!-- User Story Commits --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- User Story --></label>
+        <label></label>
         <name>copado__User_Story__c</name>
-        <relationshipLabel><!-- User Story Commits --></relationshipLabel>
+        <relationshipLabel></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- View in Git --></label>
+        <label></label>
         <name>copado__View_in_Git__c</name>
     </fields>
 </CustomObjectTranslation>

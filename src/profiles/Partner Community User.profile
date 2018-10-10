@@ -12040,11 +12040,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>copado__User_Story_Commit__c.Commit_Web_URI__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>copado__User_Story_Commit__c.Status__c</field>
         <readable>false</readable>
     </fieldPermissions>
