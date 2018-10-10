@@ -10514,11 +10514,6 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>copado__Git_Org_Commit__c.Commit_WebURI__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
         <editable>true</editable>
         <field>copado__Git_Org_Commit__c.copado__Changes__c</field>
         <readable>true</readable>
@@ -10561,11 +10556,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>copado__Git_Repository__c.IsBackupsOnly__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>copado__Git_Repository__c.WebURI__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

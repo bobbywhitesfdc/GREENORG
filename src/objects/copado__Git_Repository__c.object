@@ -244,15 +244,6 @@
         <type>Checkbox</type>
     </fields>
     <fields>
-        <fullName>WebURI__c</fullName>
-        <description>Web URI of the Git Provider for this Repository</description>
-        <externalId>false</externalId>
-        <label>WebURI</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Url</type>
-    </fields>
-    <fields>
         <fullName>copado__Branch_Base_URL__c</fullName>
         <deprecated>false</deprecated>
         <description>This field enables Copado to create a link to the Git branches&apos; information on your provider&apos;s end.</description>
